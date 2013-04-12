@@ -5,12 +5,13 @@ $filePath = 'imdbLinks.txt';
 $links = explode("\n", file_get_contents($filePath));
 */
 
-
 function getDetails($links)
 {
+	$details = array();
 	for($i = 0; $i < sizeof($links); $i++)
 	{
-		$page = file_get_contents($links[$i]);	
+		$page = file_get_contents($links[$i]);		
+		//echo $page;
 
 		preg_match_all("/\"genre\">[a-zA-Z]*<\/span>/", $page, $category);
 		preg_match_all("/\"ratingValue\">[0-9]\.[0-9]<\/span>/", $page, $rating);

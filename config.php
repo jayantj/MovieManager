@@ -1,6 +1,8 @@
 <?
 
 $basePath = '/media/win7/Movies/';
+$createPath = '/home/jayant/categories/';
+
 $allowedExtensions = array("mkv"=>1, "avi"=>1, "mp4"=>1, "flv"=>1);
 $minimumSize = 100;
 
