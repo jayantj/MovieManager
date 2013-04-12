@@ -1,10 +1,16 @@
 MovieManager is an application which manages your movies. 
+
 It categories your movies, and orders them by IMDB rating. It also saves a description of each movie.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 It is in the development process as of now. I plan to make this a GUI app later, right now this is just a script which has to be manually run.
 
 1. After cloning, change $basePath and $createPath in config.php. basePath is the path of your existing movies directory, and createPath is the path where you want the categories to be created.
 2. Open terminal, cd to the repository, and run php main.php
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
 If you find any bugs (and you will), please mail the details to me.
 
+The Demos folder contains images which show what exactly the script does.
